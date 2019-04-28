@@ -13,6 +13,11 @@ module.exports = function(app) {
     //   console.log("confirm data friends")
     //   res.sendFile(path.join(__dirname + "/../data/friends.js"));
     // });
+
+    app.get("/api/friends", function(req, res) {
+      res.sendFile(path.join(__dirname + "/../data/friends.js"));
+    });
+
   
     app.use("", function(req, res) {
       res.sendFile(path.join(__dirname, "../public/home.html"));
