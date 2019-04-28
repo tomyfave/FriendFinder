@@ -1,0 +1,69 @@
+var friends = [
+{
+    "name":"spoty",
+    "photo":"https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12234047/Dalmatian-Care-500x749.jpg",
+    "scores":[
+        5,
+        1,
+        1,
+        4,
+        3,
+        2,
+        2,
+        5,
+        1,
+        1
+      ]
+  },
+  {
+    "name":"cheetah",
+    "photo":"https://i.pinimg.com/originals/71/66/f9/7166f9ae1f378aefe76b796795a95e60.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"spoty",
+    "photo":"https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12234047/Dalmatian-Care-500x749.jpg",
+    "scores":[
+        1,
+        4,
+        4,
+        4,
+        2,
+        1,
+        2,
+        5,
+        3,
+        1
+      ]
+  },
+  {
+    "name":"cheetah",
+    "photo":"https://i.pinimg.com/originals/71/66/f9/7166f9ae1f378aefe76b796795a95e60.jpg",
+    "scores":[
+        3,
+        1,
+        4,
+        4,
+        3,
+        1,
+        3,
+        5,
+        3,
+        1
+      ]
+  },
+];
+//gives us the ability to export the object
+module.exports = friends;
+  
